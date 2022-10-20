@@ -66,12 +66,12 @@ fifth_book = Book.new( "The Hobbit","J. R. R. Tolkien","HarperCollins Publishers
 
 arr = [first_book,second_book,third_book,fourth_book,fifth_book]
 
-puts "\nFilter by author Antoine de Saint-Exupery:"
+puts "\nФільтруємо за автором - Antoine de Saint-Exupery:"
 arr_res = BookORG.filter_author(arr, "Antoine de Saint-Exupery")
 puts arr_res
-puts "\nFilter by publisher Charles Scribner's Sons:"
+puts "\nФільтруємо за виданням - Charles Scribner's Sons:"
 arr_res = BookORG.filter_publisher(arr, "Charles Scribner's Sons")
 puts arr_res
-puts "\nFilter by year 1943:"
+puts "\nФільтруємо за роком видання - 1943:"
 arr_res = BookORG.filter_year(arr, 1943)
 puts arr_res
